@@ -1,0 +1,3 @@
+[build]
+  command = "(npx browserslist --update-db) & npm install & yarn build"
+  publish = "publish/"
